@@ -3,9 +3,17 @@ import 'package:flutter/material.dart';
 
 class MyTextField extends StatelessWidget {
 
-  textInputTypee textInputTypee;
+  TextInputType textInputTypee;
   bool isPassword;
   String hinttextt;
+
+
+MyTextField(
+    required this.textInputTypee,
+    required this.textInputTypee,
+    required this.textInputTypee,
+
+    )
 
 
 
