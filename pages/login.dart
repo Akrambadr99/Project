@@ -19,7 +19,7 @@ class Login extends StatelessWidget {
                 keyboardType: TextInputType.text,
                 obscureText: false,
                 decoration: InputDecoration(
-                  hintText: "Enter Your Password : ",
+                  hintText: "Enter Your Email : ",
 
                   enabledBorder: OutlineInputBorder(borderSide: Divider.createBorderSide(context),),
                   focusedBorder: OutlineInputBorder(borderSide: BorderSide(color: Colors.blueGrey,),),
