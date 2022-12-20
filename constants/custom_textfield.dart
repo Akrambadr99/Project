@@ -1,10 +1,8 @@
 import 'package:flutter/material.dart';
 
 
-const aaa = InputDecoration(
+const decorationTextField = InputDecoration(
   hintText: "Enter Your Email: ",
-
-  // To delete borders
 
   enabledBorder: OutlineInputBorder(
     borderSide: BorderSide.none,
@@ -12,5 +10,5 @@ const aaa = InputDecoration(
   focusedBorder: OutlineInputBorder(
     borderSide: BorderSide(color: Colors.blueGrey,),),
   filled: true,
-  contentPadding: const EdgeInsets.all(8),
+  contentPadding:  EdgeInsets.all(8),
 );
