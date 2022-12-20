@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 
 
 const decorationTextField = InputDecoration(
-  hintText: "Enter Your Email: ",
+
 
   enabledBorder: OutlineInputBorder(
     borderSide: BorderSide.none,
