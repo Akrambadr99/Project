@@ -12,6 +12,8 @@ class Login extends StatelessWidget {
           child: Column(
             children: [
 
+              const SizedBox(height: 65,),
+
               // The sign in and Sign up form
               TextField(
                 keyboardType: TextInputType.text,
