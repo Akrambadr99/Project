@@ -12,29 +12,22 @@ class Login extends StatelessWidget {
           padding: const EdgeInsets.all(33.0),
           child: Column(
             children: [
-
               const SizedBox(
                 height: 64,
               ),
 
-              // The sign in and Sign up form
-
-              // This is for Email address
               TextField(
                   keyboardType: TextInputType.emailAddress,  // create for is variable
                   obscureText: false, // Create for is variable
                   decoration: InputDecoration(
                     hintText: "Enter Your Email: ",
-
-                    // To delete borders
-
                     enabledBorder: OutlineInputBorder(
                       borderSide: Divider.createBorderSide(context),),
                     focusedBorder: OutlineInputBorder(
                       borderSide: BorderSide(color: Colors.blueGrey,),),
                     filled: true,
                     contentPadding: const EdgeInsets.all(8),
-                  )),
+                  ).copyWith(hintText: "Enter your Email : ")),
 
                  // The SizeBox between Email address and password
                  const SizedBox(height: 33,),
@@ -52,7 +45,7 @@ class Login extends StatelessWidget {
               TextField(
                   keyboardType: TextInputType.text,  // create for is variable
                   obscureText: true, // Create for is variable
-                  decoration: decorationTextField
+                  decoration: decorationTextField.copyWith(hintText: "Enter Your Password")
               ),
 
 
