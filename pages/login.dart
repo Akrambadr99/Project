@@ -24,7 +24,7 @@ class Login extends StatelessWidget {
               // This is for Email address
               TextField(
                   keyboardType: TextInputType.emailAddress,  // create for is variable
-                  obscureText: isPassword, // Create for is variable
+                  obscureText: false, // Create for is variable
                   decoration: InputDecoration(
                     hintText: hinttextt,
 
@@ -40,8 +40,8 @@ class Login extends StatelessWidget {
 
 
              MyTextField(
-                 textInputTypee:  TextInputType.emailAddress,
-                 isPassword:  false,
+                 textInputTypee:  ,
+                 isPassword:  ,
                  hinttextt:  "Enter Your Email: " ,
 
              ),  // Replace Text field by function , this is function for Email adress
