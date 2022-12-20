@@ -1,7 +1,4 @@
-import 'dart:html';
-
 import 'package:flutter/material.dart';
-import 'package:the_project/constants/custom_textfield.dart';
 
 class Login extends StatelessWidget {
   const Login({Key? key}) : super(key: key);
@@ -36,24 +33,13 @@ class Login extends StatelessWidget {
                       borderSide: BorderSide(color: Colors.blueGrey,),),
                     filled: true,
                     contentPadding: const EdgeInsets.all(8),
-                  ))
+                  )),
 
 
-             MyTextField(
-                 textInputTypee:  ,
-                 isPassword:  ,
-                 hinttextt:  "Enter Your Email: " ,
-
-             ),  // Replace Text field by function , this is function for Email adress
 
              // The SizeBox between Email address and password
               const SizedBox(height: 33,),
 
-              MyTextField(
-                textInputTypee:  TextInputType.text,
-                isPassword:  true,
-                hinttextt:  "Enter Your Password: " ,
-              ),  // Replace Text field by function , this is function for Email adress
               Text("Data")
             ],
           ),
