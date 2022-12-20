@@ -8,12 +8,12 @@ class MyTextField extends StatelessWidget {
   String hinttextt;
 
 
-MyTextField(
-    required this.textInputTypee,
-    required this.textInputTypee,
-    required this.textInputTypee,
+MyTextField({
+  required this.textInputTypee,
+  required this.isPassword,
+  required this.hinttextt,
 
-    )
+})
 
 
 
