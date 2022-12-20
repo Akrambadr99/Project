@@ -47,7 +47,15 @@ class Login extends StatelessWidget {
 
               const SizedBox(
                 height: 33,
-              )
+              ),
+
+              TextField(
+                  keyboardType: TextInputType.emailAddress,  // create for is variable
+                  obscureText: false, // Create for is variable
+                  decoration: decorationTextField
+              ),
+
+              
             ],
           ),
         ),
