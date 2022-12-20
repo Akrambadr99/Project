@@ -73,7 +73,7 @@ class Login extends StatelessWidget {
                   Text("data"),
                   TextButton(
                     onPressed: () {},
-                    child: Text("Logout" , style: TextStyle(color: Colors.black),),
+                    child: Text("Sign Up" , style: TextStyle(color: Colors.black),),
 
                   )
                 ],
