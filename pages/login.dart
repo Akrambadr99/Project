@@ -42,13 +42,12 @@ class Login extends StatelessWidget {
               TextField(
                   keyboardType: TextInputType.emailAddress,  // create for is variable
                   obscureText: false, // Create for is variable
-
                   decoration: decorationTextField
               ),
 
-
-
-              Text("Data")
+              const SizedBox(
+                height: 33,
+              )
             ],
           ),
         ),
