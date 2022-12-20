@@ -52,9 +52,11 @@ class Login extends StatelessWidget {
                 height: 64,
               ),
 
-
-              
-
+              ElevatedButton(
+                onPressed: (){},
+                child: Text("click here", style: TextStyle(fontSize: 19),),
+               
+              )
 
             ],
           ),
