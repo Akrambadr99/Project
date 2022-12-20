@@ -50,12 +50,12 @@ class Login extends StatelessWidget {
               ),
 
               TextField(
-                  keyboardType: TextInputType.emailAddress,  // create for is variable
-                  obscureText: false, // Create for is variable
+                  keyboardType: TextInputType.text,  // create for is variable
+                  obscureText: true, // Create for is variable
                   decoration: decorationTextField
               ),
 
-              
+
             ],
           ),
         ),
