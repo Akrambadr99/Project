@@ -8,12 +8,13 @@ class MyTextField extends StatelessWidget {
   Widget build(BuildContext context) {
     return
       TextField(
-        keyboardType: TextInputType.text,
-        obscureText: true,
+        keyboardType: textInputTypee,  // create for is variable
+        obscureText: isPassword, // Create for is variable
         decoration: InputDecoration(
-          hintText: "Enter Your Email : ",
+          hintText: hinttextt,
 
-// To delete borders
+           // To delete borders
+
           enabledBorder: OutlineInputBorder(
             borderSide: Divider.createBorderSide(context),),
           focusedBorder: OutlineInputBorder(
