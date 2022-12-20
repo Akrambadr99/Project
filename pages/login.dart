@@ -35,10 +35,16 @@ class Login extends StatelessWidget {
                     contentPadding: const EdgeInsets.all(8),
                   )),
 
+                 // The SizeBox between Email address and password
+                 const SizedBox(height: 33,),
+
+              TextField(
+                  keyboardType: TextInputType.emailAddress,  // create for is variable
+                  obscureText: false, // Create for is variable
+                  decoration: 
+              ),
 
 
-             // The SizeBox between Email address and password
-              const SizedBox(height: 33,),
 
               Text("Data")
             ],
