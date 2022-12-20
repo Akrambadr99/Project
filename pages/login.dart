@@ -26,7 +26,7 @@ class Login extends StatelessWidget {
                   keyboardType: TextInputType.emailAddress,  // create for is variable
                   obscureText: false, // Create for is variable
                   decoration: InputDecoration(
-                    hintText: hinttextt,
+                    hintText: "Enter Your Email: ",
 
                     // To delete borders
 
