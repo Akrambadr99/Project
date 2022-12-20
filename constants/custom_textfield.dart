@@ -7,7 +7,8 @@ const aaa = InputDecoration(
   // To delete borders
 
   enabledBorder: OutlineInputBorder(
-    borderSide: Divider.createBorderSide(context),),
+    borderSide: BorderSide.none,
+  ),
   focusedBorder: OutlineInputBorder(
     borderSide: BorderSide(color: Colors.blueGrey,),),
   filled: true,
