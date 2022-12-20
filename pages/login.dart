@@ -9,11 +9,16 @@ class Login extends StatelessWidget {
       body: Column(
         children: [
 
+          // The sign in and Sign up form
           TextField(
             keyboardType: TextInputType.text,
             obscureText: true,
             decoration: InputDecoration(
               hintText: "Enter Your Password : ",
+
+
+
+
             ),
           ),
 
