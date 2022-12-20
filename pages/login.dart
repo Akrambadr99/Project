@@ -17,7 +17,7 @@ class Login extends StatelessWidget {
               // The sign in and Sign up form
               TextField(
                 keyboardType: TextInputType.text,
-                obscureText: true,
+                obscureText: false,
                 decoration: InputDecoration(
                   hintText: "Enter Your Password : ",
 
