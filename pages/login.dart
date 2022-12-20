@@ -32,9 +32,12 @@ class Login extends StatelessWidget {
               ),
 
 
+             // The SizeBox between Email address and password
+              const SizedBox(height: 65,),
 
-             
-             // This is A form for password
+
+
+              // This is A form for password
               TextField(
                 keyboardType: TextInputType.emailAddress,
                 obscureText: false,
