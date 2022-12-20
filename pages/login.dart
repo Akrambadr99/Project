@@ -69,6 +69,7 @@ class Login extends StatelessWidget {
               ),
 
               Row(
+                mainAxisAlignment: MainAxisAlignment.center,
                 children: [
                   Text("data"),
                   TextButton(
