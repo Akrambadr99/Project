@@ -71,7 +71,7 @@ class Login extends StatelessWidget {
               Row(
                 mainAxisAlignment: MainAxisAlignment.center,
                 children: [
-                  Text("Do not have an account", style: TextStyle(color: Colors.black),),
+                  Text("Do not have an account", style: TextStyle(fontSize:  18 ),),
                   TextButton(
                     onPressed: () {},
                     child: Text("Sign Up" , style: TextStyle(color: Colors.black),),
