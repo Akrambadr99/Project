@@ -15,24 +15,28 @@ class Login extends StatelessWidget {
           child: Column(
             children: [
 
-              const SizedBox(height: 64,),
+              const SizedBox(
+                height: 64,
+              ),
 
               // The sign in and Sign up form
 
               // This is for Email address
               TextField(
-                keyboardType: TextInputType.emailAddress,
-                obscureText: false,
-                decoration: InputDecoration(
-                  hintText: "Enter Your Email : ",
+                  keyboardType: TextInputType.emailAddress,  // create for is variable
+                  obscureText: isPassword, // Create for is variable
+                  decoration: InputDecoration(
+                    hintText: hinttextt,
 
-                  // To delete borders
-                  enabledBorder: OutlineInputBorder(borderSide: Divider.createBorderSide(context),),
-                  focusedBorder: OutlineInputBorder(borderSide: BorderSide(color: Colors.blueGrey,),),
-                  filled: true,
-                  contentPadding: const EdgeInsets.all(8),
-                ),
-              ),
+                    // To delete borders
+
+                    enabledBorder: OutlineInputBorder(
+                      borderSide: Divider.createBorderSide(context),),
+                    focusedBorder: OutlineInputBorder(
+                      borderSide: BorderSide(color: Colors.blueGrey,),),
+                    filled: true,
+                    contentPadding: const EdgeInsets.all(8),
+                  ))
 
 
              MyTextField(
@@ -50,11 +54,6 @@ class Login extends StatelessWidget {
                 isPassword:  true,
                 hinttextt:  "Enter Your Password: " ,
               ),  // Replace Text field by function , this is function for Email adress
-
-
-
-
-
               Text("Data")
             ],
           ),
