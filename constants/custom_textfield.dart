@@ -8,11 +8,11 @@ class MyTextField extends StatelessWidget {
   final String hinttextt;
 
 
-MyTextField({
+MyTextField({Key? key,
   required this.textInputTypee,
   required this.isPassword,
   required this.hinttextt,
-})
+}) : super(key: key)
 
 
 
