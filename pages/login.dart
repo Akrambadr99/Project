@@ -33,14 +33,14 @@ class Login extends StatelessWidget {
               ),
 
 
-             MyTextField(),  // Replace Text field by function 
+             MyTextField(),  // Replace Text field by function , this is function for Email adress
 
              // The SizeBox between Email address and password
               const SizedBox(height: 33,),
 
+              MyTextField(),  // Replace Text field by function , this is function for Email adress
 
 
-              // This is A form for password
 
 
 
