@@ -1,3 +1,5 @@
+import 'dart:html';
+
 import 'package:flutter/material.dart';
 import 'package:the_project/constants/custom_textfield.dart';
 
@@ -44,7 +46,9 @@ class Login extends StatelessWidget {
               const SizedBox(height: 33,),
 
               MyTextField(
-
+                textInputTypee:  TextInputType.text,
+                isPassword:  true,
+                hinttextt:  "Enter Your Password: " ,
               ),  // Replace Text field by function , this is function for Email adress
 
 
