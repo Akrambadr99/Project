@@ -55,7 +55,7 @@ class Login extends StatelessWidget {
 
               ElevatedButton(
                 onPressed: (){},
-                child: Text("click here", style: TextStyle(fontSize: 19),),
+                child: Text("Sign in", style: TextStyle(fontSize: 19),),  // For sign in 
                 style: ButtonStyle(
                   backgroundColor: MaterialStateProperty.all(BTNgreen),
                   padding: MaterialStateProperty.all(EdgeInsets.all(12)),
