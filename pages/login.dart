@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:the_project/constants/colors.dart';
 import 'package:the_project/constants/custom_textfield.dart';
 
 class Login extends StatelessWidget {
@@ -56,7 +57,7 @@ class Login extends StatelessWidget {
                 onPressed: (){},
                 child: Text("click here", style: TextStyle(fontSize: 19),),
                 style: ButtonStyle(
-                  backgroundColor: MaterialStateProperty.all(),
+                  backgroundColor: MaterialStateProperty.all(BTNgreen),
                   padding: MaterialStateProperty.all(EdgeInsets.all(12)),
                   shape: MaterialStateProperty.all(RoundedRectangleBorder(borderRadius: BorderRadius.circular(8)),
                 ),
