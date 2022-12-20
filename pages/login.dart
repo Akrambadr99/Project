@@ -67,7 +67,15 @@ class Login extends StatelessWidget {
               const SizedBox(
                 height: 64,
               ),
-              
+
+              Row(
+                children: [
+                  Text("data")
+                ],
+              )
+
+
+
             ],
           ),
         ),
