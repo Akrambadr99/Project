@@ -67,4 +67,26 @@ class Register extends StatelessWidget {
                     )
                 ),
 
-                
+                const SizedBox(
+                  height: 64,
+                ),
+
+                Row(
+                  mainAxisAlignment: MainAxisAlignment.center,
+                  children: [
+                    Text("Do not have an account", style: TextStyle(fontSize:  18 ),),
+                    TextButton(
+                      onPressed: () {},
+                      child: Text("Sign Up" , style: TextStyle(color: Colors.black , fontSize:  18 ),),
+
+                    )
+                  ],
+                ),
+              ],
+            ),
+          ),
+        ),
+      ),
+    );
+  }
+}
