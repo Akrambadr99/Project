@@ -42,4 +42,14 @@ class _DetailsState extends State<Details> {
                     ),
                   ],
                 ),
-                
+                Padding(
+                  padding: const EdgeInsets.only(right: 12),
+                  child: Text(
+                    "\$ 13",
+                    style: TextStyle(fontSize: 18),
+                  ),
+                ),
+              ],
+            ),
+          ],
+          
