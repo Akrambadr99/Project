@@ -71,4 +71,8 @@ class Home extends StatelessWidget {
                           color: Color.fromARGB(255, 255, 255, 255),
                         )),
                   ),
-                  
+                  ListTile(
+                      title: Text("Home"),
+                      leading: Icon(Icons.home),
+                      onTap: () {}),
+                 
