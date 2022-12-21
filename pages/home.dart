@@ -106,4 +106,10 @@ class Home extends StatelessWidget {
                     Positioned(
                       bottom: 24,
                       child: Container(
+                          child: Text(
+                            "8",
+                            style: TextStyle(
+                                fontSize: 16,
+                                color: Color.fromARGB(255, 0, 0, 0)),
+                          ),
                           
