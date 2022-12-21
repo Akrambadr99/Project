@@ -55,4 +55,11 @@ class _DetailsState extends State<Details> {
           backgroundColor: appbarGreen,
           title: Text("Details screen"),
         ),
-        
+        body: SingleChildScrollView(
+          child: Column(
+            children: [
+              Image.asset("assets/img/2.webp"),
+              SizedBox(
+                height: 11,
+              ),
+              
