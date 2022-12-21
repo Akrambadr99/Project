@@ -117,4 +117,10 @@ class Home extends StatelessWidget {
                               color: Color.fromARGB(211, 164, 255, 193),
                               shape: BoxShape.circle)),
                     ),
-                    
+                    IconButton(
+                      onPressed: () {},
+                      icon: Icon(Icons.add_shopping_cart),
+                    ),
+                  ],
+                ),
+               
