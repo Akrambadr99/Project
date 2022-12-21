@@ -50,4 +50,16 @@ class Home extends StatelessWidget {
                 );
               }),
         ),
-        
+        drawer: Drawer(
+          child: Column(
+            mainAxisAlignment: MainAxisAlignment.spaceBetween,
+            children: [
+              Column(
+                children: [
+                  UserAccountsDrawerHeader(
+                    decoration: BoxDecoration(
+                      image: DecorationImage(
+                          image: AssetImage("assets/img/test.jpg"),
+                          fit: BoxFit.cover),
+                    ),
+                  
