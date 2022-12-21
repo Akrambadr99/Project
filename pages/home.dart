@@ -129,4 +129,12 @@ class Home extends StatelessWidget {
                     "\$ 13",
                     style: TextStyle(fontSize: 18),
                   ),
-                
+                ),
+              ],
+            ),
+          ],
+          backgroundColor: appbarGreen,
+          title: Text("Home"),
+        ));
+  }
+}
