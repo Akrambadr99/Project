@@ -70,7 +70,7 @@ class Register extends StatelessWidget {
 
                   ElevatedButton(
                       onPressed: (){},
-                      child: Text("Sign in", style: TextStyle(fontSize: 19),),  // For sign in
+                      child: Text("Register", style: TextStyle(fontSize: 19),),  // For sign in
                       style: ButtonStyle(
                         backgroundColor: MaterialStateProperty.all(BTNgreen),
                         padding: MaterialStateProperty.all(EdgeInsets.all(12)),
