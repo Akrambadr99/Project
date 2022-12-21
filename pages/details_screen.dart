@@ -124,4 +124,15 @@ class _DetailsState extends State<Details> {
                         color: Color.fromARGB(168, 3, 65, 27),
                         // color: Color.fromARGB(255, 186, 30, 30),
                       ),
-                      
+                      SizedBox(
+                        width: 3,
+                      ),
+                      Text(
+                        "Flower Shop",
+                        style: TextStyle(fontSize: 19),
+                      ),
+                    ],
+                  )
+                ],
+              ),
+              
