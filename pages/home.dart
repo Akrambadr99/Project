@@ -1,11 +1,15 @@
 // ignore_for_file: prefer_const_constructors, prefer_const_literals_to_create_immutables, sort_child_properties_last
 
+import 'package:flower_app/model/item.dart';
 import 'package:flower_app/shared/colors.dart';
 import 'package:flutter/material.dart';
-import 'package:flower_app/model/item.dart';
+
 
 
 class Home extends StatelessWidget {
+
+
+
   const Home({Key? key}) : super(key: key);
 
   @override
@@ -19,7 +23,7 @@ class Home extends StatelessWidget {
                   childAspectRatio: 3 / 2,
                   crossAxisSpacing: 10,
                   mainAxisSpacing: 33),
-              itemCount: 4,
+              itemCount: items.length,
               itemBuilder: (BuildContext context, int index) {
                 return GestureDetector(
                   onTap: () {},
@@ -32,7 +36,7 @@ class Home extends StatelessWidget {
                         left: 0,
                         child: ClipRRect(
                             borderRadius: BorderRadius.circular(55),
-                            child: Image.asset("assets/img/1.webp")),
+                            child: Image.asset(items[index].imgPath)),
                       ),
                     ]),
                     footer: GridTileBar(
