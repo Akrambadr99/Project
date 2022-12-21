@@ -11,4 +11,7 @@ class Home extends StatelessWidget {
     return Scaffold(
         appBar: AppBar(
           actions: [
-            
+            Row(
+              children: [
+                Stack(
+                  
