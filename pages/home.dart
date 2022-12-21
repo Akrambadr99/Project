@@ -97,4 +97,7 @@ class Home extends StatelessWidget {
             ],
           ),
         ),
-        
+        appBar: AppBar(
+          actions: [
+            Row(
+              
