@@ -23,4 +23,6 @@ class _DetailsState extends State<Details> {
                 Stack(
                   children: [
                     Positioned(
-                     
+                      bottom: 24,
+                      child: Container(
+                          
