@@ -23,7 +23,7 @@ class Home extends StatelessWidget {
                             style: TextStyle(
                                 fontSize: 19, color: Color.fromARGB(255, 0, 0, 0)),
                           ),
-                          padding: EdgeInsets.all(5),
+                          padding: EdgeInsets.all(6),
                           decoration: BoxDecoration(
                               color: Color.fromARGB(219, 164, 255, 193),
                               shape: BoxShape.circle)),
