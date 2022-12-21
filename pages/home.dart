@@ -40,4 +40,14 @@ class Home extends StatelessWidget {
                           onPressed: () {},
                           icon: Icon(Icons.add)),
 
-                      
+                      leading: Text("\$12.99"),
+
+                      title: Text(
+                        "",
+                      ),
+                    ),
+                  ),
+                );
+              }),
+        ),
+        
