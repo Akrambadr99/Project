@@ -1,5 +1,5 @@
 
-// This is for home Page 
+// This is for home Page
 
 
 import 'package:flower_app/shared/colors.dart';
@@ -11,6 +11,7 @@ class Home extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      drawer: Drawer(),
         appBar: AppBar(
           actions: [
             Row(
