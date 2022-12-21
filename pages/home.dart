@@ -22,4 +22,10 @@ class Home extends StatelessWidget {
                 return GestureDetector(
                   onTap: () {},
                   child: GridTile(
-                    
+                    child: Stack(children: [
+                      Positioned(
+                        top: -3,
+                        bottom: -9,
+                        right: 0,
+                        left: 0,
+                        
