@@ -20,4 +20,6 @@ class Home extends StatelessWidget {
               itemCount: 4,
               itemBuilder: (BuildContext context, int index) {
                 return GestureDetector(
-                  }
+                  onTap: () {},
+                  child: GridTile(
+                    
