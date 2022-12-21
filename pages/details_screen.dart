@@ -9,3 +9,11 @@ class Details extends StatefulWidget {
   State<Details> createState() => _DetailsState();
 }
 
+class _DetailsState extends State<Details> {
+  // const Details({Key? key}) : super(key: key);
+  bool isShowMore = true;
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+        
