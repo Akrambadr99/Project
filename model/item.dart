@@ -14,4 +14,5 @@ final List<Item> items = [
   Item(price: 12.99, imgPath: "assets/img/5.webp"),
   Item(price: 12.99, imgPath: "assets/img/6.webp"),
   Item(price: 12.99, imgPath: "assets/img/7.webp"),
+  Item(price: 12.99, imgPath: "assets/img/8.webp"),
 ];
