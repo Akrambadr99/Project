@@ -1,8 +1,7 @@
 // ignore_for_file: prefer_const_constructors, prefer_const_literals_to_create_immutables
 
-import 'package:flutter/material.dart';
 import 'package:flower_app/shared/colors.dart';
-
+import 'package:flutter/material.dart';
 
 class Details extends StatefulWidget {
   @override
@@ -69,4 +68,17 @@ class _DetailsState extends State<Details> {
               SizedBox(
                 height: 16,
               ),
-              
+              Row(
+                mainAxisAlignment: MainAxisAlignment.spaceAround,
+                children: [
+                  Container(
+                      padding: EdgeInsets.all(4),
+                      child: Text(
+                        "New",
+                        style: TextStyle(fontSize: 15),
+                      ),
+                      decoration: BoxDecoration(
+                        color: Color.fromARGB(255, 255, 129, 129),
+                        borderRadius: BorderRadius.circular(4),
+                      )),
+                  
