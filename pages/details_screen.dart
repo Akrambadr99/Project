@@ -84,4 +84,11 @@ class _DetailsState extends State<Details> {
                   SizedBox(
                     width: 8,
                   ),
-                  
+                  Row(
+                    children: [
+                      Icon(
+                        Icons.star,
+                        size: 26,
+                        color: Color.fromARGB(255, 255, 191, 0),
+                      ),
+                      
