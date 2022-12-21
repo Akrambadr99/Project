@@ -93,8 +93,8 @@ class Register extends StatelessWidget {
                       Text("Do not have an account", style: TextStyle(fontSize:  18 ),),
                       TextButton(
                         onPressed: () {
-                          Navigator.push(context, MaterialPageRoute(builder:  (context ) => const Login() ),
-                        },
+                          Navigator.pushReplacement(context, MaterialPageRoute(builder:  (context ) => const Login() ),
+                        };
                         child: Text("Sign in" , style: TextStyle(color: Colors.black , fontSize:  18 ),),
 
                       )
