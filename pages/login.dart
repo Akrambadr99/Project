@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:the_project/constants/colors.dart';
 import 'package:the_project/constants/custom_textfield.dart';
+import 'package:the_project/pages/register.dart';
 
 class Login extends StatelessWidget {
   const Login({Key? key}) : super(key: key);
@@ -76,7 +77,10 @@ class Login extends StatelessWidget {
                   children: [
                     Text("Do not have an account", style: TextStyle(fontSize:  18 ),),
                     TextButton(
-                      onPressed: () {},
+                      onPressed: () {
+                     Navigator.pushReplacement(context, MaterialPageRoute(builder:  (context ) => const Register() ),
+                      };
+                      },
                       child: Text("Sign Up" , style: TextStyle(color: Colors.black , fontSize:  18 ),),
 
                     )
