@@ -2,7 +2,7 @@ class Item {
   String imgPath;
   double price;
 
-  Item({required this.imgPath, required this.price});
+  Item({required this.imgPath, required this.price, this.location = "Main branch"});
 }
 
 
