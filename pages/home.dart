@@ -35,7 +35,7 @@ class Home extends StatelessWidget {
                   ],
                 ),
                 Padding(
-                  padding: const EdgeInsets.only(right: 12),
+                  padding: const EdgeInsets.only(right: 13),
                   child: Text(
                     "\$ 13",
                     style: TextStyle(fontSize: 18),
