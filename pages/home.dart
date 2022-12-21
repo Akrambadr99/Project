@@ -32,4 +32,12 @@ class Home extends StatelessWidget {
                             borderRadius: BorderRadius.circular(55),
                             child: Image.asset("assets/img/1.webp")),
                       ),
-                    
+                    ]),
+                    footer: GridTileBar(
+// backgroundColor: Color.fromARGB(66, 73, 127, 110),
+                      trailing: IconButton(
+                          color: Color.fromARGB(255, 62, 94, 70),
+                          onPressed: () {},
+                          icon: Icon(Icons.add)),
+
+                      
