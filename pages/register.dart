@@ -2,6 +2,9 @@ import 'package:flutter/material.dart';
 import 'package:the_project/constants/colors.dart';
 import 'package:the_project/constants/custom_textfield.dart';
 
+
+// This page is for Register Form in the app
+
 class Register extends StatelessWidget {
   const Register({Key? key}) : super(key: key);
 
