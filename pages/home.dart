@@ -2,6 +2,8 @@
 
 import 'package:flower_app/shared/colors.dart';
 import 'package:flutter/material.dart';
+import 'package:flower_app/model/item.dart';
+
 
 class Home extends StatelessWidget {
   const Home({Key? key}) : super(key: key);
