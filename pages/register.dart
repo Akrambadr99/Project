@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:the_project/constants/colors.dart';
 import 'package:the_project/constants/custom_textfield.dart';
+import 'package:the_project/pages/login.dart';
 
 
 // This page is for Register Form in the app
@@ -92,7 +93,7 @@ class Register extends StatelessWidget {
                       Text("Do not have an account", style: TextStyle(fontSize:  18 ),),
                       TextButton(
                         onPressed: () {
-                          Navigator.push(context, MaterialPageRoute(builder:  (context ) => const SecondRoute() ),
+                          Navigator.push(context, MaterialPageRoute(builder:  (context ) => const Login() ),
                         },
                         child: Text("Sign in" , style: TextStyle(color: Colors.black , fontSize:  18 ),),
 
