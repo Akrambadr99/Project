@@ -33,3 +33,13 @@ class Register extends StatelessWidget {
                       contentPadding: const EdgeInsets.all(8),
                     ).copyWith(hintText: "Enter your Email : ")),
 
+                // The SizeBox between Email address and password
+                const SizedBox(height: 33,),
+
+                TextField(
+                    keyboardType: TextInputType.emailAddress,  // create for is variable
+                    obscureText: false, // Create for is variable
+                    decoration: decorationTextField
+                ),
+
+                
