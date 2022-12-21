@@ -1,4 +1,6 @@
-// ignore_for_file: prefer_const_constructors, prefer_const_literals_to_create_immutables, sort_child_properties_last
+
+// This is for home Page 
+
 
 import 'package:flower_app/shared/colors.dart';
 import 'package:flutter/material.dart';
