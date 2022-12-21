@@ -157,4 +157,10 @@ class _DetailsState extends State<Details> {
                 maxLines: isShowMore ? 3 : null,
                 overflow: TextOverflow.fade,
               ),
-              
+              TextButton(
+                  onPressed: () {
+                    setState(() {
+                      isShowMore = !isShowMore;
+                    });
+                  },
+                  
