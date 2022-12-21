@@ -20,4 +20,16 @@ class Register extends StatelessWidget {
                   height: 64,
                 ),
 
-               
+                TextField(
+                    keyboardType: TextInputType.emailAddress,  // create for is variable
+                    obscureText: false, // Create for is variable
+                    decoration: InputDecoration(
+                      hintText: "Enter Your Email: ",
+                      enabledBorder: OutlineInputBorder(
+                        borderSide: Divider.createBorderSide(context),),
+                      focusedBorder: OutlineInputBorder(
+                        borderSide: BorderSide(color: Colors.blueGrey,),),
+                      filled: true,
+                      contentPadding: const EdgeInsets.all(8),
+                    ).copyWith(hintText: "Enter your Email : ")),
+
