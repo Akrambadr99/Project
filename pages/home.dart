@@ -100,4 +100,7 @@ class Home extends StatelessWidget {
         appBar: AppBar(
           actions: [
             Row(
-              
+              children: [
+                Stack(
+                  children: [
+                    
