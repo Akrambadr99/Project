@@ -1,7 +1,9 @@
+// ignore_for_file: prefer_const_literals_to_create_immutables, prefer_const_constructors
+
+import 'package:flower_app/pages/register.dart';
+import 'package:flower_app/shared/colors.dart';
+import 'package:flower_app/shared/contants.dart';
 import 'package:flutter/material.dart';
-import 'package:the_project/constants/colors.dart';
-import 'package:the_project/constants/custom_textfield.dart';
-import 'package:the_project/pages/register.dart';
 
 class Login extends StatelessWidget {
   const Login({Key? key}) : super(key: key);
@@ -20,75 +22,57 @@ class Login extends StatelessWidget {
                 const SizedBox(
                   height: 64,
                 ),
-
                 TextField(
-                    keyboardType: TextInputType.emailAddress,  // create for is variable
-                    obscureText: false, // Create for is variable
-                    decoration: InputDecoration(
-                      hintText: "Enter Your Email: ",
-                      enabledBorder: OutlineInputBorder(
-                        borderSide: Divider.createBorderSide(context),),
-                      focusedBorder: OutlineInputBorder(
-                        borderSide: BorderSide(color: Colors.blueGrey,),),
-                      filled: true,
-                      contentPadding: const EdgeInsets.all(8),
-                    ).copyWith(hintText: "Enter your Email : ")),
-
-                   // The SizeBox between Email address and password
-                   const SizedBox(height: 33,),
-
-                TextField(
-                    keyboardType: TextInputType.emailAddress,  // create for is variable
-                    obscureText: false, // Create for is variable
-                    decoration: decorationTextField
-                ),
-
+                    keyboardType: TextInputType.emailAddress,
+                    obscureText: false,
+                    decoration: decorationTextfield.copyWith(
+                      hintText: "Enter Your Email : ",
+                    )),
                 const SizedBox(
                   height: 33,
                 ),
-
                 TextField(
-                    keyboardType: TextInputType.text,  // create for is variable
-                    obscureText: true, // Create for is variable
-                    decoration: decorationTextField.copyWith(hintText: "Enter Your Password")
-                ),
-
+                    keyboardType: TextInputType.text,
+                    obscureText: true,
+                    decoration: decorationTextfield.copyWith(
+                      hintText: "Enter Your Password : ",
+                    )),
                 const SizedBox(
-                  height: 64,
+                  height: 33,
                 ),
-
                 ElevatedButton(
-                  onPressed: (){},
-                  child: Text("Sign in", style: TextStyle(fontSize: 19),),  // For sign in
+                  onPressed: () {},
+                  child: Text(
+                    "Sign in",
+                    style: TextStyle(fontSize: 19),
+                  ),
                   style: ButtonStyle(
                     backgroundColor: MaterialStateProperty.all(BTNgreen),
                     padding: MaterialStateProperty.all(EdgeInsets.all(12)),
-                    shape: MaterialStateProperty.all(RoundedRectangleBorder(borderRadius: BorderRadius.circular(8)),
+                    shape: MaterialStateProperty.all(RoundedRectangleBorder(
+                        borderRadius: BorderRadius.circular(8))),
                   ),
-                )
                 ),
-
                 const SizedBox(
-                  height: 64,
+                  height: 33,
                 ),
-
                 Row(
                   mainAxisAlignment: MainAxisAlignment.center,
                   children: [
-                    Text("Do not have an account", style: TextStyle(fontSize:  18 ),),
+                    Text("Do not have an account?", style: TextStyle(fontSize: 18)),
                     TextButton(
-                      onPressed: () {
-                     Navigator.pushReplacement(context, MaterialPageRoute(builder:  (context ) => const Register() ),
-                      };
-                      },
-                      child: Text("Sign Up" , style: TextStyle(color: Colors.black , fontSize:  18 ),),
+                        onPressed: () {
+                          Navigator.pushReplacement(
+                            context,
+                            MaterialPageRoute(
+                                builder: (context) => const Register()),
+                          );
+                        },
+                        child:
+                        Text('sign up', style: TextStyle(color: Colors.black,fontSize: 18))),
 
-                    )
                   ],
                 )
-
-
-
               ],
             ),
           ),
