@@ -88,4 +88,13 @@ class Home extends StatelessWidget {
                       leading: Icon(Icons.exit_to_app),
                       onTap: () {}),
                 ],
-              
+              ),
+              Container(
+                margin: EdgeInsets.only(bottom: 12),
+                child: Text("Developed by Ali Hassan © 2022",
+                    style: TextStyle(fontSize: 16)),
+              )
+            ],
+          ),
+        ),
+        
