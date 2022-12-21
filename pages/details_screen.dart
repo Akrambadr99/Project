@@ -19,4 +19,8 @@ class _DetailsState extends State<Details> {
         appBar: AppBar(
           actions: [
             Row(
-             
+              children: [
+                Stack(
+                  children: [
+                    Positioned(
+                     
