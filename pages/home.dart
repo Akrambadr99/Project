@@ -62,4 +62,13 @@ class Home extends StatelessWidget {
                           image: AssetImage("assets/img/test.jpg"),
                           fit: BoxFit.cover),
                     ),
+                    currentAccountPicture: CircleAvatar(
+                        radius: 55,
+                        backgroundImage: AssetImage("assets/img/ali.jpg")),
+                    accountEmail: Text("ali@yahoo.com"),
+                    accountName: Text("ali Hassan",
+                        style: TextStyle(
+                          color: Color.fromARGB(255, 255, 255, 255),
+                        )),
+                  ),
                   
