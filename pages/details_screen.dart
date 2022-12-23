@@ -1,11 +1,15 @@
+// ignore_for_file: prefer_const_constructors, prefer_const_literals_to_create_immutables
 
-// This is for details screen in app
-
-
-import 'package:flower_app/shared/colors.dart';
 import 'package:flutter/material.dart';
+import 'package:the_project/constants/appbar.dart';
+
+import '../constants/colors.dart';
+import '../model/item.dart';
 
 class Details extends StatefulWidget {
+  Item product;
+  Details({required this.product});
+
   @override
   State<Details> createState() => _DetailsState();
 }
@@ -19,39 +23,8 @@ class _DetailsState extends State<Details> {
     return Scaffold(
         appBar: AppBar(
           actions: [
-            Row(
-              children: [
-                Stack(
-                  children: [
-                    Positioned(
-                      bottom: 24,
-                      child: Container(
-                          child: Text(
-                            "8",
-                            style: TextStyle(
-                                fontSize: 16,
-                                color: Color.fromARGB(255, 0, 0, 0)),
-                          ),
-                          padding: EdgeInsets.all(5),
-                          decoration: BoxDecoration(
-                              color: Color.fromARGB(211, 164, 255, 193),
-                              shape: BoxShape.circle)),
-                    ),
-                    IconButton(
-                      onPressed: () {},
-                      icon: Icon(Icons.add_shopping_cart),
-                    ),
-                  ],
-                ),
-                Padding(
-                  padding: const EdgeInsets.only(right: 12),
-                  child: Text(
-                    "\$ 13",
-                    style: TextStyle(fontSize: 18),
-                  ),
-                ),
-              ],
-            ),
+            ProductsAndPrice()
+
           ],
           backgroundColor: appbarGreen,
           title: Text("Details screen"),
@@ -59,12 +32,12 @@ class _DetailsState extends State<Details> {
         body: SingleChildScrollView(
           child: Column(
             children: [
-              Image.asset("assets/img/2.webp"),
+              Image.asset(widget.product.imgPath),
               SizedBox(
                 height: 11,
               ),
               Text(
-                "\$ 12.99",
+                "\$  ${widget.product.price}",
                 style: TextStyle(fontSize: 20),
               ),
               SizedBox(
@@ -130,7 +103,7 @@ class _DetailsState extends State<Details> {
                         width: 3,
                       ),
                       Text(
-                        "Flower Shop",
+                        widget.product.location,
                         style: TextStyle(fontSize: 19),
                       ),
                     ],

@@ -4,6 +4,7 @@ import 'package:flower_app/pages/register.dart';
 import 'package:flower_app/shared/colors.dart';
 import 'package:flower_app/shared/contants.dart';
 import 'package:flutter/material.dart';
+import 'package:the_project/constants/colors.dart';
 
 class Login extends StatelessWidget {
   const Login({Key? key}) : super(key: key);
