@@ -2,6 +2,8 @@ class Item {
   String imgPath;
   double price;
 
+  var location;
+
   Item({required this.imgPath, required this.price, this.location = "Main branch"});
 }
 
